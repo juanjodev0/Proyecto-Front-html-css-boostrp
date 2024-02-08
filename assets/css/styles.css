@@ -60,3 +60,33 @@
 .banner-1{
     
 }
+
+.banner2 {
+    background-color: var(--color-background-principal);
+    font-family: var(--fuente-principal);
+}
+
+.banner2__titulo-negro {
+    color: var(--color-title);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner2__titulo-naranja {
+    color: var(--color-secundario)
+}
+
+.banner2__parrafo {
+    padding-top: 1vh;
+    font-size: small;
+    color: var(--color-text);
+}
+
+.banner2__parrafo p {
+    padding: 2px;
+    margin: 0;
+}
+
+.banner2__cards {
+    padding-left: 34vh;
+    padding-right: 34vh;
+}

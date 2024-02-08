@@ -72,7 +72,8 @@
 }
 
 .banner2__titulo-naranja {
-    color: var(--color-secundario)
+    color: var(--color-secundario);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .banner2__parrafo {
@@ -89,4 +90,35 @@
 .banner2__cards {
     padding-left: 34vh;
     padding-right: 34vh;
+}
+
+.cards__card {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.cards__card--shadow {
+    box-shadow: 0 18px 24px -5px var(--color-icon);
+}
+
+.card-text {
+    font-size: 70%;
+    color: var(--color-text);
+    font-family: var(--fuente-principal);
+}
+
+.card__precio {
+    font-size: 70%;
+    color: var(--color-subtitle);
+    font-family: var(--fuente-principal);
+    text-decoration: line-through;
+}
+
+.card__precioDescuento {
+    font-size: 70%;
+    color: var(--color-secundario);
+    background-color: #fbdcd0; 
+    font-family: var(--color-secundario);
+    border-radius: 15%;
 }

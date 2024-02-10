@@ -131,6 +131,7 @@
 .banner6 {
     padding-left: 42vh;
     padding-right: 39vh;
+    background-color: var(--color-background-principal);
     padding-top: 10vh; //Espaciado entre sección 5 y 6
 }
 
@@ -165,7 +166,8 @@
     height: 8vh;
     width: 20vh;
     background-color: var(--color-background-principal);
-    padding: 10px;
+    padding-top: 7px;
+    padding-left: 25px;
     border-top-right-radius: 1vh;
     border-end-end-radius: 1vh;
 }
@@ -176,8 +178,76 @@
     background-color: var(--color-secundario);
     font-size: 70%;
     border: none;
-    height: 5vh;
+    height: 6vh;
     width: 15vh;
     border-radius: 1vh;
 }
 
+.footer {
+    padding-left: 42vh;
+    padding-right: 39vh;
+    font-family: var(--fuente-principal);
+    background-color: var(--color-background-secundario);
+    padding-top: 13vh; //Espaciado entre sección 6 y footer
+}
+
+.footer__img {
+    margin-bottom: 2vh;
+}
+
+.footer__parrafo {
+    font-size: 70%;
+    color: var(--color-text);
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    padding-top: 6px;
+}
+
+.img__redes--face {
+    height: 31px;
+    width: 31px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(224, 223, 223);
+    border-radius: 100%;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+
+.img__redes--insta {
+    height: 31px;
+    width: 31px;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+
+.img__redes--twi {
+    height: 31px;
+    width: 31px;
+    padding: 6px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px rgb(224, 223, 223);
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+.footer__table {
+    font-size: small;
+    color: var(--color-text);
+}
+
+.footer__table h6 {
+    font-size: small;
+    color: black;
+    padding-bottom: 17px;
+}
+
+.footer__table p {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.footer__copy {
+    color: var(--color-subtitle);
+    font-size: 11px;
+}

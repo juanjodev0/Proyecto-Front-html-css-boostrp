@@ -110,6 +110,13 @@
 
 .card__precio {
     font-size: 70%;
+    color: var(--color-text);
+    font-family: var(--fuente-principal);
+    text-decoration: line-through;
+}
+
+.card__precio--color {
+    font-size: 70%;
     color: var(--color-subtitle);
     font-family: var(--fuente-principal);
     text-decoration: line-through;
@@ -248,6 +255,7 @@
 }
 
 .footer__copy {
+    padding-top: 10px;
     color: var(--color-subtitle);
     font-size: 11px;
 }

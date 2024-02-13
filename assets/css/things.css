@@ -1,0 +1,47 @@
+.container{
+    background: var(--color-background-secundario);
+    margin-bottom: 20px;
+}
+p {
+    font-family: var(--fuente-principal);
+    font-size: 18px;
+    color: var(--color-text);
+}
+.titulo{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Volkhov", serif;
+}
+.images{
+    width: 41px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.span{
+    color: var(--color-secundario);
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    height: 278px;
+    
+}
+
+.card-title {
+    font-family: var(--fuente-principal);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 18px;
+    color: var(--color-title);
+    line-height: 34px;
+}
+
+.card-text{
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    margin-top: 15px;
+}

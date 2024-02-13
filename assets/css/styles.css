@@ -168,3 +168,205 @@
     color: var(--color-text);
 }
 
+.banner-1{
+    
+}
+
+.banner2 {
+    background-color: var(--color-background-principal);
+    font-family: var(--fuente-principal);
+}
+
+.banner2__titulo-negro {
+    color: var(--color-title);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner2__titulo-naranja {
+    color: var(--color-secundario);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner2__parrafo {
+    padding-top: 1vh;
+    font-size: small;
+    color: var(--color-text);
+}
+
+.banner2__parrafo p {
+    padding: 2px;
+    margin: 0;
+}
+
+.banner2__cards {
+    padding-left: 34vh;
+    padding-right: 34vh;
+}
+
+.cards__card {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.cards__card--shadow {
+    box-shadow: 0 25px 25px 5px var(--color-icon);
+}
+
+.card-text {
+    font-size: 70%;
+    color: var(--color-text);
+    font-family: var(--fuente-principal);
+}
+
+.card__precio {
+    font-size: 70%;
+    color: var(--color-text);
+    font-family: var(--fuente-principal);
+    text-decoration: line-through;
+}
+
+.card__precio--color {
+    font-size: 70%;
+    color: var(--color-subtitle);
+    font-family: var(--fuente-principal);
+    text-decoration: line-through;
+}
+
+.card__precioDescuento {
+    font-size: 70%;
+    color: var(--color-secundario);
+    background-color: #fbdcd0; 
+    font-family: var(--color-secundario);
+    border-radius: 15%;
+}
+
+.flechas {
+    border: 1px solid #cdcccc;
+    border-radius: 100px;
+}
+
+.banner6 {
+    padding-left: 42vh;
+    padding-right: 39vh;
+    background-color: var(--color-background-principal);
+    padding-top: 10vh; //Espaciado entre sección 5 y 6
+}
+
+.banner6__suscribe {
+    height: 46vh;
+    width: 100%;
+    background-color: var(--color-secundario);
+    border-radius: 2vh;
+}
+
+.suscribe__parrafo {
+    margin-left: 13vh;
+    margin-top: 8vh;
+    width: 80vh;
+    color: var(--color-principal);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.suscribe__input {
+    font-family: var(--fuente-principal);
+    color: var(--color-subtitle);
+    font-size: 70%;
+    border: none;
+    height: 8vh;
+    width: 55vh;
+    border-top-left-radius: 1vh;
+    border-end-start-radius: 1vh;
+    margin-left: 9vh;
+}
+
+.suscribe__button--contenedor {
+    height: 8vh;
+    width: 20vh;
+    background-color: var(--color-background-principal);
+    padding-top: 7px;
+    padding-left: 25px;
+    border-top-right-radius: 1vh;
+    border-end-end-radius: 1vh;
+}
+
+.suscribe__button {
+    font-family: var(--fuente-principal);
+    color: var(--color-principal);
+    background-color: var(--color-secundario);
+    font-size: 70%;
+    border: none;
+    height: 6vh;
+    width: 15vh;
+    border-radius: 1vh;
+}
+
+.footer {
+    padding-left: 42vh;
+    padding-right: 39vh;
+    font-family: var(--fuente-principal);
+    background-color: var(--color-background-secundario);
+    padding-top: 13vh; //Espaciado entre sección 6 y footer
+}
+
+.footer__img {
+    margin-bottom: 2vh;
+}
+
+.footer__parrafo {
+    font-size: 70%;
+    color: var(--color-text);
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    padding-top: 6px;
+}
+
+.img__redes--face {
+    height: 31px;
+    width: 31px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(224, 223, 223);
+    border-radius: 100%;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+
+.img__redes--insta {
+    height: 31px;
+    width: 31px;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+
+.img__redes--twi {
+    height: 31px;
+    width: 31px;
+    padding: 6px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px rgb(224, 223, 223);
+    margin-top: 2vh;
+    margin-right: 2vh;
+}
+
+.footer__table {
+    font-size: small;
+    color: var(--color-text);
+}
+
+.footer__table h6 {
+    font-size: small;
+    color: black;
+    padding-bottom: 17px;
+}
+
+.footer__table p {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.footer__copy {
+    padding-top: 10px;
+    color: var(--color-subtitle);
+    font-size: 11px;
+}

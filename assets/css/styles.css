@@ -175,7 +175,7 @@
 }
 /*Santiagoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
 
-.banner2 {
+.banner2, .banner5 {
     background-color: var(--color-background-principal);
     font-family: var(--fuente-principal);
     padding-top: 70px;
@@ -185,11 +185,6 @@
 .banner2__titulo-negro {
     color: var(--color-title);
     font-family: 'Times New Roman', Times, serif;
-}
-
-.banner2__flechas{
-    margin-left: 800px;
-    
 }
 
 .banner2__titulo-naranja {
@@ -208,7 +203,7 @@
     margin: 0;
 }
 
-.banner2__cards {
+.banner2__cards, .banner5__cards {
     padding-left: 34vh;
     padding-right: 34vh;
 }
@@ -229,7 +224,7 @@
     padding-left: 50px;
 }
 
-.cards__card:hover {
+.cards__card:hover, .cards5__card:hover, .cards4__card:hover {
     box-shadow: 0 25px 25px 5px var(--color-icon);
     transform: translate(-5px);
     
@@ -299,7 +294,7 @@
     padding-left: 42vh;
     padding-right: 39vh;
     background-color: var(--color-background-principal);
-    padding-top: 10vh; //Espaciado entre sección 5 y 6
+    padding-top: 4vh; /*Espaciado entre sección 5 y 6*/
 }
 
 .banner6__suscribe {
@@ -501,4 +496,76 @@
 .banner3__cards {
     padding-left: 34vh;
     padding-right: 34vh;
+}
+
+.banner4 {
+    padding-left: 42vh;
+    padding-right: 34vh;
+    background-color: var(--color-background-secundario);
+    padding-top: 12vh;
+    padding-bottom: 21vh;
+}
+
+.banner4__contenedor1 {
+    width: 50vh;
+}
+
+.banner4__titulo {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.banner4__parrafo {
+    padding-top: 1vh;
+    font-size: 13px;
+    padding-bottom: 2vh;
+}
+
+.cards5__card {
+    background-color: var(--color-background-principal);
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+    padding-bottom: 10px;
+}
+
+.cards5__parrafo {
+    font-size: small;
+}
+
+.cards5-text {
+    font-size: 70%;
+    color: var(--color-subtitle);
+    font-family: var(--fuente-principal);
+}
+
+.banner5__puntos {
+    border: 1px solid var(--color-background-secundario);
+    border-radius: 100px;
+    background-color: var(--color-subtitle);
+}
+
+.banner5__puntos--naranja {
+    border: 1px solid var(--color-background-secundario);
+    border-radius: 100px;
+    background-color: var(--color-secundario);
+}
+
+.banner2__flechas {
+    padding-left: 112vh;
+}
+
+.cards4__card {
+    background-color: white;
+    border-radius: 6px;
+    transition: all 300ms ease-in-out;
+    padding-bottom: 10px;
+}
+
+.cards4__text, .cards4__name {
+    font-size: small;
+}
+
+.cards4__city {
+    font-size: 12px;
 }
